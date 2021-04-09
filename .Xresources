@@ -1,0 +1,43 @@
+
+Xcursor.theme: whiteglass
+Xcursor.size: 15
+
+!Xterm
+xterm*faceName: Fira Code Retila
+xterm*faceSize: 9
+
+
+!URXVT
+!! Using XLFD (created via e.g. xfontsel)
+!URxvt*font:           -misc-fixed-medium-r-semicondensed-*-12-90-100-*-c-60-iso8859-1
+! Using Xft
+URxvt*font:           xft:FiraCode:size=8
+URxvt.letterSpace: -1
+
+!Xft.dpi:        96
+!Xft.antialias:  true
+!Xft.rgba:       rgb
+!Xft.hinting:    true
+!Xft.hintstyle:  hintslight
+!Xft.autohint:   false
+!Xft.lcdfilter:  lcddefault
+
+
+URxvt.scrollBar: false
+
+!URxvt*depth: 32
+!URxvt*background: rgba:0000/0000/0200/c800
+URxvt.transparent:     true
+URxvt.shading:         35
+URxvt.blurRadius:      15
+URxvt.background:      #d3d3d3
+URxvt.foreground:      #1d1f21
+
+
+
+
+!URxvt*inheritPixmap: true
+!URxvt*transparent: true
+! URxvt*shading: 0 to 99 darkens, 101 to 200 lightens
+!URxvt*shading: 14
+
